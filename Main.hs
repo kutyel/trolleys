@@ -21,7 +21,9 @@ data Volunteer =
     { name         :: String
     , availability :: Shifts
     }
-  deriving (Show)
+
+instance Show Volunteer where
+  show = name
 
 -- helpers
 getVolunteers :: Shift -> [Volunteer] -> [Volunteer]
