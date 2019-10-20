@@ -21,7 +21,7 @@ type Schedule = [Turn]
 data Config =
   Config
     { shifts     :: Shifts
-    , volunteers :: [Text]
+    , volunteers :: [Volunteer]
     }
   deriving (Generic)
 
@@ -62,15 +62,7 @@ fillTheGaps n vols =
 main :: IO Schedule
 main = do
   content <- BS.readFile "config.yml"
-  let parsed = Y.decodeThrow content :: Maybe Config
+  let parsed = Y.decodeThrow content
   case parsed of
-    Nothing              -> error "Could not parse config file!"
-    (Just (Config ss _)) -> fillTheGaps 2 vols ss
-
--- Try it out!
-vols :: [Volunteer]
-vols =
-  [ Volunteer "Flavio" ["M", "T", "W"]
-  , Volunteer "Lydia" ["T", "W"]
-  , Volunteer "Eva" ["W"]
-  ]
+    Nothing             -> error "Could not parse config file!"
+    Just (Config ss vs) -> fillTheGaps 2 vs ss

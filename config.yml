@@ -1,2 +1,8 @@
 shifts: [M, T, W, H, F, S]
-volunteers: [Flavio, Lydia]
+volunteers:
+  - name: Flavio
+    availability: [M, T, W]
+  - name: Lydia
+    availability: [T, W]
+  - name: Eva
+    availability: [W]
