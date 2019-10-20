@@ -1,14 +1,31 @@
+{-# LANGUAGE DeriveGeneric     #-}
+{-# LANGUAGE OverloadedStrings #-}
+
 module Main where
 
+import           Data.Aeson
+import qualified Data.ByteString.Char8 as BS
 import           Data.Maybe
+import           Data.Text             (Text (..), unpack)
+import qualified Data.Yaml             as Y
+import           GHC.Generics
 import           System.Random
 import           System.Random.Shuffle (shuffleM)
 
-type Shift = String
+type Shift = Text
 
 type Shifts = [Shift]
 
 type Schedule = [Turn]
+
+data Config =
+  Config
+    { shifts     :: Shifts
+    , volunteers :: [Text]
+    }
+  deriving (Generic)
+
+instance FromJSON Config
 
 data Turn
   = Empty
@@ -18,12 +35,15 @@ data Turn
 
 data Volunteer =
   Volunteer
-    { name         :: String
+    { name         :: Text
     , availability :: Shifts
     }
+  deriving (Generic)
+
+instance FromJSON Volunteer
 
 instance Show Volunteer where
-  show = name
+  show = unpack . name
 
 -- helpers
 getVolunteers :: [Volunteer] -> Shift -> [Volunteer]
@@ -40,15 +60,17 @@ fillTheGaps n vols =
   mapM $ (pure . fillSchedule n =<<) . shuffleM . getVolunteers vols
 
 main :: IO Schedule
-main = fillTheGaps 2 vols turns
+main = do
+  content <- BS.readFile "config.yml"
+  let parsed = Y.decodeThrow content :: Maybe Config
+  case parsed of
+    Nothing              -> error "Could not parse config file!"
+    (Just (Config ss _)) -> fillTheGaps 2 vols ss
 
 -- Try it out!
-turns :: Shifts
-turns = ["M1", "M2", "M3", "W1", "W2"]
-
 vols :: [Volunteer]
 vols =
-  [ Volunteer "Flavio" ["M1", "M2", "M3"]
-  , Volunteer "Lydia" ["M2", "M3"]
-  , Volunteer "Eva" ["M3"]
+  [ Volunteer "Flavio" ["M", "T", "W"]
+  , Volunteer "Lydia" ["T", "W"]
+  , Volunteer "Eva" ["W"]
   ]
