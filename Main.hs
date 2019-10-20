@@ -5,11 +5,10 @@ module Main where
 
 import           Data.Aeson
 import qualified Data.ByteString.Char8 as BS
-import           Data.Maybe
+import           Data.List             (intercalate)
 import           Data.Text             (Text (..), unpack)
 import qualified Data.Yaml             as Y
 import           GHC.Generics
-import           System.Random
 import           System.Random.Shuffle (shuffleM)
 
 type Shift = Text
@@ -31,7 +30,11 @@ data Turn
   = Empty
   | Captain Volunteer
   | Volunteers [Volunteer]
-  deriving (Show)
+
+instance Show Turn where
+  show Empty           = "EMPTY!\n"
+  show (Captain v)     = "ONLY " ++ show v ++ ".\n"
+  show (Volunteers vs) = intercalate ", " (map show vs) ++ ".\n"
 
 data Volunteer =
   Volunteer
