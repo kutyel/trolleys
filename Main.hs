@@ -26,8 +26,8 @@ instance Show Volunteer where
   show = name
 
 -- helpers
-getVolunteers :: Shift -> [Volunteer] -> [Volunteer]
-getVolunteers s = filter $ elem s . availability
+getVolunteers :: [Volunteer] -> Shift -> [Volunteer]
+getVolunteers = flip $ filter . (. availability) . elem
 
 fillSchedule :: Int -> [Volunteer] -> Turn
 fillSchedule n []  = Empty
@@ -37,10 +37,7 @@ fillSchedule n xs  = Volunteers $ take n xs
 -- the first `Int` is the # of volunteers per shift!
 fillTheGaps :: Int -> [Volunteer] -> Shifts -> IO Schedule
 fillTheGaps n vols =
-  mapM
-    (\s -> do
-       vs <- shuffleM $ getVolunteers s vols
-       pure $ fillSchedule n vs)
+  mapM $ (pure . fillSchedule n =<<) . shuffleM . getVolunteers vols
 
 main :: IO Schedule
 main = fillTheGaps 2 vols turns
