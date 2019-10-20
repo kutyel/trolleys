@@ -1,8 +1,49 @@
 shifts: [M, T, W, H, F, S]
 volunteers:
   - name: Flavio
-    availability: [M, T, W]
+    availability: [S]
   - name: Lydia
-    availability: [T, W]
+    availability: [M, H, F, S]
   - name: Eva
-    availability: [W]
+    availability: [M, T, W, H, F, S]
+  - name: Pedro
+    availability: [M, T, W, H, F, S]
+  - name: Jennifer
+    availability: [M, H, S]
+  - name: Desirée
+    availability: [M, T, W, F, S]
+  - name: Sergio
+    availability: [M, T, F, S]
+  - name: Marisa
+    availability: [M, T, F, S]
+  - name: Terry
+    availability: [T, W, H, F, S]
+  - name: Janet
+    availability: [T, W, H, F, S]
+  - name: Stephanie
+    availability: [W, S]
+  - name: Alfonso
+    availability: [W, S]
+  - name: Nadia
+    availability: [W, S]
+  - name: Esther
+    availability: [W, S]
+  - name: Magdalena
+    availability: [H]
+  - name: Violeta
+    availability: [F]
+  - name: Yolanda
+    availability: [F, S]
+  - name: Mercedes
+    availability: [S]
+  - name: Richard
+    availability: [S]
+  - name: Jean Paul
+    availability: [S]
+  - name: Vida
+    availability: [S]
+  - name: Jaziel
+    availability: [S]
+  - name: Chikkaola
+    availability: [S]
+

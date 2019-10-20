@@ -59,8 +59,8 @@ fillSchedule n xs  = Volunteers $ take n xs
 
 -- the first `Int` is the # of volunteers per shift!
 fillTheGaps :: Int -> [Volunteer] -> Shifts -> IO Schedule
-fillTheGaps n vols =
-  mapM $ (pure . fillSchedule n =<<) . shuffleM . getVolunteers vols
+fillTheGaps n =
+  mapM . (((pure . fillSchedule n =<<) . shuffleM) .) . getVolunteers
 
 main :: IO Schedule
 main = do
