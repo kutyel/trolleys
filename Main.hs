@@ -9,6 +9,7 @@ import           Data.List             (intercalate)
 import           Data.Text             (Text (..), unpack)
 import qualified Data.Yaml             as Y
 import           GHC.Generics
+import           System.IO
 import           System.Random.Shuffle (shuffleM)
 
 type Shift = Text
@@ -60,11 +61,14 @@ fillSchedule n xs  = Volunteers $ take n xs
 -- the first `Int` is the # of volunteers per shift!
 fillTheGaps :: Int -> [Volunteer] -> Shifts -> IO Schedule
 fillTheGaps n =
-  mapM . (((pure . fillSchedule n =<<) . shuffleM) .) . getVolunteers
+  traverse . (((pure . fillSchedule n =<<) . shuffleM) .) . getVolunteers
 
 main :: IO Schedule
 main = do
-  content <- BS.readFile "config.yml"
+  hSetBuffering stdout NoBuffering
+  putStrLn "What is your config YAML file?"
+  config <- getLine
+  content <- BS.readFile config
   let parsed = Y.decodeThrow content
   case parsed of
     Nothing             -> error "Could not parse config file!"
