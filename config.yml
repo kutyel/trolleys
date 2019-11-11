@@ -3,19 +3,19 @@ volunteers:
   - name: Flavio
     availability: [S]
   - name: Lydia
-    availability: [M, H, F, S]
+    availability: [M, T, H, F, S]
   - name: Eva
     availability: [M, T, W, H, F, S]
   - name: Pedro
-    availability: [M, T, W, H, F, S]
+    availability: [M, T, H, F, S]
   - name: Jennifer
-    availability: [M, H, S]
+    availability: [T, S]
   - name: Desirée
     availability: [M, T, W, F, S]
   - name: Sergio
     availability: [M, T, F, S]
   - name: Marisa
-    availability: [M, T, F, S]
+    availability: [M, T]
   - name: Terry
     availability: [T, W, H, F, S]
   - name: Janet
@@ -27,13 +27,13 @@ volunteers:
   - name: Nadia
     availability: [W, S]
   - name: Esther
-    availability: [W, S]
+    availability: [W, H]
   - name: Magdalena
-    availability: [H]
+    availability: [S]
   - name: Violeta
     availability: [F]
   - name: Yolanda
-    availability: [F, S]
+    availability: [M]
   - name: Mercedes
     availability: [S]
   - name: Richard
@@ -46,4 +46,13 @@ volunteers:
     availability: [S]
   - name: Chikkaola
     availability: [S]
-
+  - name: Comfort
+    availability: [T, W, S]
+  - name: Jim
+    availability: [W, H]
+  - name: Enrique
+    availability: [S]
+  - name: Linda
+    availability: [T, H, S]
+  - name: David
+    availability: [T, H, S]
