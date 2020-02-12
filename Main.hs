@@ -66,9 +66,7 @@ fillTheGaps n =
 main :: IO Schedule
 main = do
   hSetBuffering stdout NoBuffering
-  putStrLn "What is your config YAML file?"
-  config <- getLine
-  content <- BS.readFile config
+  content <- BS.readFile "config.yml"
   let parsed = Y.decodeThrow content
   case parsed of
     Nothing             -> error "Could not parse config file!"

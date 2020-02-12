@@ -14,8 +14,6 @@ volunteers:
     availability: [M, T, W, F, S]
   - name: Sergio
     availability: [M, T, F, S]
-  - name: Marisa
-    availability: [M, T]
   - name: Terry
     availability: [T, W, H, F, S]
   - name: Janet
@@ -56,3 +54,19 @@ volunteers:
     availability: [T, H, S]
   - name: David
     availability: [T, H, S]
+  - name: Arouna
+    availability: [M, T, W, F, S]
+  - name: Blessing
+    availability: [W, H]
+  - name: Prosper
+    availability: [M, T, W, H, F, S]
+  - name: Sara
+    availability: [W, H, F, S]
+  - name: Christian
+    availability: [S]
+  - name: Brooke
+    availability: [M, T, H]
+  - name: Ron
+    availability: [S]
+  - name: Luisa
+    availability: [T, W]
