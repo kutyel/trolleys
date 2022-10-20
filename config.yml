@@ -1,72 +1,132 @@
-shifts: [M, T, W, H, F, S]
+shifts: [J1, J2, S1, S2, D]
 volunteers:
-  - name: Flavio
-    availability: [S]
-  - name: Lydia
-    availability: [M, T, H, F, S]
-  - name: Eva
-    availability: [M, T, W, H, F, S]
-  - name: Pedro
-    availability: [M, T, H, F, S]
-  - name: Jennifer
-    availability: [T, S]
-  - name: Desirée
-    availability: [M, T, W, F, S]
-  - name: Sergio
-    availability: [M, T, F, S]
-  - name: Terry
-    availability: [T, W, H, F, S]
-  - name: Janet
-    availability: [T, W, H, F, S]
-  - name: Stephanie
-    availability: [W, S]
-  - name: Alfonso
-    availability: [W, S]
-  - name: Nadia
-    availability: [W, S]
-  - name: Esther
-    availability: [W, H]
-  - name: Magdalena
-    availability: [S]
-  - name: Violeta
-    availability: [F]
-  - name: Yolanda
-    availability: [M]
-  - name: Mercedes
-    availability: [S]
-  - name: Richard
-    availability: [S]
-  - name: Jean Paul
-    availability: [S]
-  - name: Vida
-    availability: [S]
-  - name: Jaziel
-    availability: [S]
-  - name: Chikkaola
-    availability: [S]
-  - name: Comfort
-    availability: [T, W, S]
-  - name: Jim
-    availability: [W, H]
-  - name: Enrique
-    availability: [S]
-  - name: Linda
-    availability: [T, H, S]
-  - name: David
-    availability: [T, H, S]
-  - name: Arouna
-    availability: [M, T, W, F, S]
-  - name: Blessing
-    availability: [W, H]
-  - name: Prosper
-    availability: [M, T, W, H, F, S]
-  - name: Sara
-    availability: [W, H, F, S]
-  - name: Christian
-    availability: [S]
-  - name: Brooke
-    availability: [M, T, H]
-  - name: Ron
-    availability: [S]
-  - name: Luisa
-    availability: [T, W]
+  - name: Flavio Corpa
+    availability: [S1, S2, D]
+  - name: Lidia Corpa
+    availability: [J1, J2, S1, S2, D]
+  - name: Julián Porta
+    availability: [J1, J2, S1, S2, D]
+  - name: Celia Porta
+    availability: [J1, J2, S1, S2, D]
+  - name: Juan Pedro Ruiz
+    availability: []
+  - name: Joaquina Ruiz
+    availability: []
+  - name: Miguel García
+    availability: [S1, S2]
+  - name: Carmen García
+    availability: [S1, S2]
+  - name: David Cantó
+    availability:  [J1, J2, S1, S2, D] # FIXME: preguntar
+  - name: Priscila Cantó
+    availability:  [J1, J2, S1, S2, D]
+  - name: Mery Lerebours
+    availability: [J1, J2] # FIXME: sólo?
+  - name: Zóar Mellado
+    availability: [J1, J2, S1, S2, D] # FIXME: preguntar
+  - name: Ale Mellado
+    availability: [J1, J2, S1, S2, D] # FIXME: preguntar
+  - name: Manuel Pastorino
+    availability: [S1, S2, D]
+  - name: Raquel Pastorino
+    availability: [S1, S2, D]
+  - name: Kristel Navarro
+    availability: [S1, S2, D]
+  - name: Yézer Mellado
+    availability: [S1, S2, D]
+  - name: Queren Mellado
+    availability: [S1, S2, D]
+  - name: Marina Candela
+    availability: [J1, J2] # FIXME: sólo?
+  - name: Esteban Candela
+    availability: [S1, S2, D]
+  - name: Karen Gutiérrez
+    availability: [J1, J2, S1, S2, D]
+  - name: Juan Parra
+    availability: [S1, S2, D]
+  - name: Carol Parra
+    availability: [S1, S2, D]
+  - name: David Infantes
+    availability: []
+  - name: Raquel Infantes
+    availability: [J2, S1, S2, D]
+  - name: Nerea Infantes
+    availability: [J1, J2, S1, S2, D]
+  - name: Salud Fernández
+    availability: [J1, J2] # FIXME: sólo?
+  - name: Luis Mira
+    availability: [S1, S2, D]
+  - name: July Mira
+    availability: [J1, J2, S1, S2, D]
+  - name: Antonio Cortés
+    availability: [S1, S2, D]
+  - name: Clarisa Cortés
+    availability: [J1, J2, S1, S2, D]
+  - name: Clara Cortés
+    availability: [J1, J2, S1, S2, D]
+  - name: Conan Martínez
+    availability: [J1, J2, S1, S2, D]
+  - name: Juani Martínez
+    availability: [J1, J2, S1, S2, D]
+  - name: Daniel Jiménez
+    availability: [S1, S2, D]
+  - name: Masha Jiménez
+    availability: [J1, J2, S1, S2, D]
+  - name: Ana García
+    availability: [J1, J2, S1, S2, D]
+  - name: José David Rodríguez
+    availability: [S1, S2, D]
+  - name: Rebeca Rodríguez
+    availability: [S1, S2, D]
+  - name: Juan Luis Brotons
+    availability: [S1, S2, D]
+  - name: Eva Brotons
+    availability: [S1, S2, D]
+  - name: Mari Carmen García
+    availability: [S1, S2, D]
+  - name: Mara Herrero
+    availability: [S1, S2, D] # FIXME: sólo?
+  - name: María José González
+    availability: [J1, J2, S1, S2, D]
+  - name: Beruskha López
+    availability: [S1, S2, D]
+  - name: Maribel Moreno
+    availability: [J1, J2, S1, S2, D]
+  - name: José Sánchez
+    availability: [S1, S2, D]
+  - name: Silvia Sánchez
+    availability: [S1, S2, D]
+  - name: Gabriel Sánchez
+    availability: [J1, J2, S1, S2, D]
+  - name: Abraham Brotons
+    availability: [S1, S2, D]
+  - name: Amalín Brotons
+    availability: [S1, S2, D]
+  - name: Laura Brotons
+    availability: [S1, S2, D]
+  - name: María Jesús Pol
+    availability: []
+  - name: Loli Sánchez
+    availability: [J1, J2]
+  - name: Miguel Robles
+    availability: [S1, S2, D]
+  - name: Pati Robles
+    availability: [S1, S2, D]
+  - name: Mari Ripoll
+    availability: [S1, S2, D]
+  - name: José Antonio Ripoll
+    availability: [S1, S2, D]
+  - name: Verónica Estarlich
+    availability: [J1, J2, S1, S2, D] # FIXME: preguntar
+  - name: Pepi Esteve
+    availability: [J1, J2, S1, S2, D]
+  - name: Salomé Lobato
+    availability: [J1, J2, S1, S2, D]
+  - name: Carlos Ribón
+    availability: [S1, S2, D] # FIXME: preguntar
+  - name: Margie Ribón
+    availability: [J1, J2, S1, S2, D] # FIXME: preguntar
+  - name: José Antonio Santos
+    availability: [S1, S2, D]
+  - name: Ana Santos
+    availability: [S1, S2, D]

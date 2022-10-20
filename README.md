@@ -6,10 +6,6 @@
 
 Get [ghcup](https://www.haskell.org/ghcup/)! (or [stack](https://docs.haskellstack.org/en/stable/README/))
 
-```sh
-$ curl https://get-ghcup.haskell.org -sSf | sh
-```
-
 Create a YAML file in the root directory with the **shifts** and **volunteers** you want to cover:
 
 ```yaml
@@ -26,6 +22,12 @@ volunteers:
 Run the program!
 
 ```sh
-$ stack build
-$ stack exec trolleys
+$ cabal repl
+$ main
 ```
+
+## TODO
+
+- [ ] Do not repeat shifts!
+- [ ] Get captain from options
+- [ ] Try to match families together
