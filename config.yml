@@ -123,9 +123,9 @@ volunteers:
   - name: Salomé Lobato
     availability: [J1, J2, S1, S2, D]
   - name: Carlos Ribón
-    availability: [S1, S2, D] # FIXME: preguntar
+    availability: [S1, S2, D]
   - name: Margie Ribón
-    availability: [J1, J2, S1, S2, D] # FIXME: preguntar
+    availability: []
   - name: José Antonio Santos
     availability: [S1, S2, D]
   - name: Ana Santos
