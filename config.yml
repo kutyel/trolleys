@@ -41,7 +41,7 @@ volunteers:
   - name: Esteban Candela
     availability: [S1, S2, D]
   - name: Karen Gutiérrez
-    availability: [J1, J2, S1, S2, D]
+    availability: [S1, S2, D]
   - name: Juan Parra
     availability: [S1, S2, D]
   - name: Carol Parra
@@ -97,7 +97,7 @@ volunteers:
   - name: Silvia Sánchez
     availability: [S1, S2, D]
   - name: Gabriel Sánchez
-    availability: [J1, J2, S1, S2, D]
+    availability: [J1, S1, S2, D]
   - name: Abraham Brotons
     availability: [S1, S2, D]
   - name: Amalín Brotons
