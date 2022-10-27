@@ -28,6 +28,6 @@ $ main
 
 ## TODO
 
-- [ ] Do not repeat shifts!
+- [x] Do not repeat shifts!
 - [ ] Get captain from options
 - [ ] Try to match families together

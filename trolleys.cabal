@@ -20,6 +20,6 @@ executable trolleys
                      , aeson
                      , bytestring
                      , random
-                     , random-shuffle
+                     , MonadRandom
                      , text
                      , yaml
