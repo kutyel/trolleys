@@ -21,7 +21,7 @@ volunteers:
       [SM, SMD]
   - name: Miguel García
     availability:
-      []
+      [SM, SMD, D]
   - name: Carmen García
     availability:
       []
@@ -40,9 +40,12 @@ volunteers:
   - name: Raquel Pastorino
     availability:
       [XT, JT, VT, SM, SMD, D]
+  - name: Jairo Navarro
+    availability:
+      [VT, SM, SMD]
   - name: Kristel Navarro
     availability:
-      []
+      [XT, JT, VT, SM, SMD]
   - name: Yézer Mellado
     availability:
       []
@@ -50,7 +53,8 @@ volunteers:
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Marina Candela
-    availability: []
+    availability:
+      [MM, XT, JT, VT, SM, SMD, D]
   - name: Esteban Candela
     availability: []
   - name: Karen Gutiérrez
@@ -88,7 +92,7 @@ volunteers:
       []
   - name: Clara Cortés
     availability:
-      []
+      [XT, VT, SM, SMD, D]
   - name: Conan Martínez
     availability:
       [MM, JM, JMD]
@@ -154,16 +158,16 @@ volunteers:
       [XT, JT, VT, SM, SMD]
   - name: Mari Ripoll
     availability:
-      []
+      [XT, JT, VT, SM, SMD]
   - name: José Antonio Ripoll
     availability:
-      []
+      [MM, XT, VT, D]
   - name: Verónica Estarlich
     availability:
       []
   - name: Pepi Esteve
     availability:
-      []
+      [MM, XT, JM, JMD, JT, VT]
   - name: Salomé Lobato
     availability: [D]
   - name: Carlos Ribón
