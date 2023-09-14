@@ -1,1153 +1,189 @@
 shifts:
-  [
-    J1M,
-    J1MD,
-    S3M,
-    S3MD,
-    D4,
-    J8M,
-    J8MD,
-    S10M,
-    S20MD,
-    D11,
-    J15M,
-    J15MD,
-    S17M,
-    S17MD,
-    D18,
-    J22M,
-    J22MD,
-    S24M,
-    S24MD,
-    D25,
-    J29M,
-    J29MD,
-    S31M,
-    S31MD,
-  ]
+  [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
 volunteers:
   - name: Flavio Corpa
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [JT, VT, SM, SMD]
   - name: Lidia Corpa
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, VT, SM, SMD]
   - name: Julián Porta
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
   - name: Celia Porta
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JM, JMD, JT, VT, SM, SMD, D]
   - name: Juan Pedro Ruiz
-    availability: []
+    availability:
+      [SM, SMD]
   - name: Joaquina Ruiz
-    availability: []
+    availability:
+      [SM, SMD]
   - name: Miguel García
     availability:
-      [S3M, S3MD, S10M, S20MD, S17M, S17MD, S24M, S24MD, S31M, S31MD]
+      []
   - name: Carmen García
     availability:
-      [S3M, S3MD, S10M, S20MD, S17M, S17MD, S24M, S24MD, S31M, S31MD]
+      []
   - name: David Cantó
-    availability: [
-        J1,
-        J2,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ] # FIXME: preguntar
+    availability:
+      []
   - name: Priscila Cantó
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Mery Lerebours
-    availability: [J1M, J1MD, J8M, J8MD, J15M, J15MD, J22M, J22MD, J29M, J29MD]
+    availability:
+      [MM, XT, JM, JMD, JT, VT, SM, SMD]
   - name: Manuel Pastorino
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Raquel Pastorino
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD, D]
   - name: Kristel Navarro
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Yézer Mellado
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Queren Mellado
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD, D]
   - name: Marina Candela
-    availability: [J1M, J1MD, J8M, J8MD, J15M, J15MD, J22M, J22MD, J29M, J29MD]
+    availability: []
   - name: Esteban Candela
-    availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+    availability: []
   - name: Karen Gutiérrez
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Juan Parra
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Carol Parra
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, XT, JT, VT, SM, SMD, D]
   - name: David Infantes
-    availability: []
+    availability:
+      [XT, JT, VT, SM, SMD, D]
   - name: Raquel Infantes
     availability:
-      [
-        J2,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, XT, JT, VT, SM, SMD, D]
   - name: Nerea Infantes
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD, D]
   - name: Salud Fernández
-    availability: [J1M, J1MD, J8M, J8MD, J15M, J15MD, J22M, J22MD, J29M, J29MD]
+    availability:
+      []
   - name: Luis Mira
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: July Mira
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Antonio Cortés
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Clarisa Cortés
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Clara Cortés
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Conan Martínez
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, JM, JMD]
   - name: Juani Martínez
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, JM, JMD]
   - name: Daniel Jiménez
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Masha Jiménez
-    availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+    availability: [XT, JT, VT, SM, SMD, D]
   - name: Ana García
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: José David Rodríguez
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, VT, SM, SMD]
   - name: Rebeca Rodríguez
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
-  - name: Juan Luis Brotons
-    availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
-  - name: Eva Brotons
-    availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, VT, SM, SMD]
   - name: Mari Carmen García
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [SM, SMD]
   - name: Mara Herrero
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, SM, SMD, D]
   - name: María José González
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
   - name: Beruskha López
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Maribel Moreno
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: José Sánchez
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Silvia Sánchez
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Gabriel Sánchez
     availability:
-      [
-        J1,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Abraham Brotons
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [SM, SMD]
   - name: Amalín Brotons
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Laura Brotons
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD]
   - name: María Jesús Pol
     availability: []
   - name: Loli Sánchez
-    availability: [J1M, J1MD, J8M, J8MD, J15M, J15MD, J22M, J22MD, J29M, J29MD]
+    availability: []
   - name: Miguel Robles
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD]
   - name: Pati Robles
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD]
   - name: Mari Ripoll
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: José Antonio Ripoll
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Verónica Estarlich
     availability:
-      [
-        J1,
-        J2,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Pepi Esteve
     availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Salomé Lobato
-    availability:
-      [
-        J1M,
-        J1MD,
-        J8M,
-        J8MD,
-        J15M,
-        J15MD,
-        J22M,
-        J22MD,
-        J29M,
-        J29MD,
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+    availability: [D]
   - name: Carlos Ribón
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      []
   - name: Margie Ribón
     availability: []
   - name: José Antonio Santos
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD, D]
   - name: Ana Santos
     availability:
-      [
-        S3M,
-        S3MD,
-        S10M,
-        S20MD,
-        S17M,
-        S17MD,
-        S24M,
-        S24MD,
-        S31M,
-        S31MD,
-        D4,
-        D11,
-        D18,
-        D25,
-      ]
+      [XT, JT, VT, SM, SMD, D]
+  - name: Ethan Córdoba
+    availability: [D]
+  - name: Paula Córdoba
+    availability: [D]
+  - name: Mauricio Delgado
+    availability: []
+  - name: Tammy Delgado
+    availability: []
+  - name: Pilar Heredia
+    availability: []
