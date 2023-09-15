@@ -86,10 +86,10 @@ volunteers:
       []
   - name: Antonio Cortés
     availability:
-      []
+      [XT, JT, VT, SM, SMD]
   - name: Clarisa Cortés
     availability:
-      []
+      [SM, SMD]
   - name: Clara Cortés
     availability:
       [XT, VT, SM, SMD, D]
@@ -133,7 +133,7 @@ volunteers:
       []
   - name: Silvia Sánchez
     availability:
-      []
+      [XT, JT, VT]
   - name: Gabriel Sánchez
     availability:
       [JM, JMD, SM, SMD]
@@ -169,12 +169,14 @@ volunteers:
     availability:
       [MM, XT, JM, JMD, JT, VT]
   - name: Salomé Lobato
-    availability: [D]
+    availability:
+      [D]
   - name: Carlos Ribón
     availability:
       []
   - name: Margie Ribón
-    availability: []
+    availability:
+      []
   - name: José Antonio Santos
     availability:
       [XT, JT, VT, SM, SMD, D]
