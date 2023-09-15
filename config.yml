@@ -24,7 +24,7 @@ volunteers:
       [SM, SMD, D]
   - name: Carmen García
     availability:
-      []
+      [JT, SM, SMD, D]
   - name: David Cantó
     availability:
       []
@@ -136,7 +136,7 @@ volunteers:
       []
   - name: Gabriel Sánchez
     availability:
-      []
+      [JM, JMD, SM, SMD]
   - name: Abraham Brotons
     availability:
       [SM, SMD]
