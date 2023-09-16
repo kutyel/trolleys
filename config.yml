@@ -36,7 +36,7 @@ volunteers:
       [MM, XT, JM, JMD, JT, VT, SM, SMD]
   - name: Manuel Pastorino
     availability:
-      []
+      [XT, JT, VT, SM, SMD, D]
   - name: Raquel Pastorino
     availability:
       [XT, JT, VT, SM, SMD, D]
