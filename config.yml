@@ -52,8 +52,7 @@ volunteers:
   - name: Esteban Candela
     availability: []
   - name: Karen Gutiérrez
-    availability:
-      []
+    availability: [SM, SMD]
   - name: Juan Parra
     availability:
       []
@@ -70,14 +69,11 @@ volunteers:
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Salud Fernández
-    availability:
-      []
+    availability: []
   - name: Luis Mira
-    availability:
-      []
+    availability: [SM, SMD, D]
   - name: July Mira
-    availability:
-      []
+    availability: [JM, JMD, VT, SM, SMD, D]
   - name: Antonio Cortés
     availability: [XT, JT, VT, SM, SMD]
   - name: Clarisa Cortés
