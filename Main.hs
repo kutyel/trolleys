@@ -15,14 +15,12 @@ import GHC.Generics (Generic)
 import System.IO (BufferMode (NoBuffering), hSetBuffering, stdout)
 
 type Shift = Text
-
 type Shifts = [Shift]
-
 type Schedule = [Turn]
 
 data Config = Config
-  { shifts :: Shifts,
-    volunteers :: [Volunteer]
+  { shifts :: Shifts
+  , volunteers :: [Volunteer]
   }
   deriving (Generic)
 
@@ -40,8 +38,8 @@ instance Show Turn where
   show (Volunteers vs) = intercalate ", " (map show vs) ++ ".\n"
 
 data Volunteer = Volunteer
-  { name :: Text,
-    availability :: Shifts
+  { name :: Text
+  , availability :: Shifts
   }
   deriving (Eq, Generic)
 
@@ -55,7 +53,7 @@ instance Show Volunteer where
 getVolunteers :: [Volunteer] -> Shift -> [Volunteer]
 getVolunteers = flip $ filter . (. availability) . elem
 
-removeFromList :: Eq a => a -> [a] -> [a]
+removeFromList :: (Eq a) => a -> [a] -> [a]
 removeFromList deleted xs = [x | x <- xs, x /= deleted]
 
 fillSchedule :: Int -> [Volunteer] -> [Volunteer] -> IO Turn
@@ -65,7 +63,7 @@ fillSchedule n currentTurn vols = do
   let newVolunteers = removeFromList pickedVolunteer vols
   fillSchedule (n - 1) (pickedVolunteer : currentTurn) newVolunteers
 
-extractR :: MonadRandom m => [a] -> m a
+extractR :: (MonadRandom m) => [a] -> m a
 extractR xs = (xs !!) <$> getRandomR (0, length xs - 1)
 
 fillTheGaps :: Int -> [Volunteer] -> Shifts -> IO Schedule
@@ -83,4 +81,4 @@ main = do
   let parsed = Y.decodeThrow content
   case parsed of
     Nothing -> error "Could not parse config file!"
-    Just (Config ss vs) -> fillTheGaps 4 vs ss -- TODO: pass this as argv
+    Just (Config ss vs) -> fillTheGaps 3 vs ss -- TODO: pass this as argv

@@ -14,23 +14,18 @@ volunteers:
     availability:
       [XT, JM, JMD, JT, VT, SM, SMD, D]
   - name: Juan Pedro Ruiz
-    availability:
-      [SM, SMD]
+    availability: [SM, SMD]
   - name: Joaquina Ruiz
-    availability:
-      [SM, SMD]
+    availability: [SM, SMD]
   - name: Miguel García
-    availability:
-      [SM, SMD, D]
+    availability: [SM, SMD, D]
   - name: Carmen García
-    availability:
-      [JT, SM, SMD, D]
+    availability: [JT, SM, SMD, D]
   - name: David Cantó
     availability:
-      []
+      [MM, XT, JM, JMD, JT, VT, SM, SMD]
   - name: Priscila Cantó
-    availability:
-      []
+    availability: [JT, VT]
   - name: Mery Lerebours
     availability:
       [MM, XT, JM, JMD, JT, VT, SM, SMD]
@@ -48,13 +43,12 @@ volunteers:
       [XT, JT, VT, SM, SMD]
   - name: Yézer Mellado
     availability:
-      []
+      [VT, SM, SMD, D]
   - name: Queren Mellado
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Marina Candela
-    availability:
-      [MM, XT, JT, VT, SM, SMD, D]
+    availability: [MM, XT, JT, VT, SM, SMD, D]
   - name: Esteban Candela
     availability: []
   - name: Karen Gutiérrez
@@ -85,11 +79,9 @@ volunteers:
     availability:
       []
   - name: Antonio Cortés
-    availability:
-      [XT, JT, VT, SM, SMD]
+    availability: [XT, JT, VT, SM, SMD]
   - name: Clarisa Cortés
-    availability:
-      [SM, SMD]
+    availability: [SM, SMD]
   - name: Clara Cortés
     availability:
       [XT, VT, SM, SMD, D]
@@ -100,31 +92,23 @@ volunteers:
     availability:
       [MM, JM, JMD]
   - name: Daniel Jiménez
-    availability:
-      []
+    availability: [XT, JT, VT, SM, SMD, D]
   - name: Masha Jiménez
     availability: [XT, JT, VT, SM, SMD, D]
   - name: Ana García
-    availability:
-      []
+    availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
   - name: José David Rodríguez
-    availability:
-      [XT, VT, SM, SMD]
+    availability: [XT, VT, SM, SMD]
   - name: Rebeca Rodríguez
-    availability:
-      [XT, VT, SM, SMD]
+    availability: [XT, VT, SM, SMD]
   - name: Mari Carmen García
-    availability:
-      [SM, SMD]
+    availability: [SM, SMD]
   - name: Mara Herrero
-    availability:
-      [MM, SM, SMD, D]
+    availability: [MM, SM, SMD, D]
   - name: María José González
-    availability:
-      [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
-  - name: Beruskha López
-    availability:
-      [XT, VT, SM, SMD]
+    availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
+  - name: Berushka López
+    availability: [XT, VT, SM, SMD]
   - name: Maribel Moreno
     availability:
       []
@@ -138,24 +122,19 @@ volunteers:
     availability:
       [JM, JMD, SM, SMD]
   - name: Abraham Brotons
-    availability:
-      [SM, SMD]
+    availability: [SM, SMD]
   - name: Amalín Brotons
-    availability:
-      []
+    availability: []
   - name: Laura Brotons
-    availability:
-      [XT, JT, VT, SM, SMD]
+    availability: [XT, JT, VT, SM, SMD]
   - name: María Jesús Pol
     availability: []
   - name: Loli Sánchez
     availability: []
   - name: Miguel Robles
-    availability:
-      [XT, JT, VT, SM, SMD]
+    availability: [XT, JT, VT, SM, SMD]
   - name: Pati Robles
-    availability:
-      [XT, JT, VT, SM, SMD]
+    availability: [XT, JT, VT, SM, SMD]
   - name: Mari Ripoll
     availability:
       [XT, JT, VT, SM, SMD]
@@ -177,19 +156,20 @@ volunteers:
   - name: Margie Ribón
     availability:
       []
+  - name: Julio Ribón
+    availability:
+      []
   - name: José Antonio Santos
-    availability:
-      [XT, JT, VT, SM, SMD, D]
+    availability: [XT, JT, VT, SM, SMD, D]
   - name: Ana Santos
-    availability:
-      [XT, JT, VT, SM, SMD, D]
+    availability: [XT, JT, VT, SM, SMD, D]
   - name: Ethan Córdoba
     availability: [D]
   - name: Paula Córdoba
     availability: [D]
   - name: Mauricio Delgado
-    availability: []
+    availability: [SM, SMD, D]
   - name: Tammy Delgado
-    availability: []
+    availability: [SM, SMD, D]
   - name: Pilar Heredia
     availability: []
