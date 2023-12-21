@@ -18,18 +18,18 @@ volunteers:
       [XT, JM, JMD, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Juan Pedro Ruiz
-    availability: [SM, SMD]
+    availability: [XT, SM, SMD]
   - name: Joaquina Ruiz
-    availability: [SM, SMD]
+    availability: [SM, SMD, D]
   - name: Miguel García
     availability: [SM, SMD, D]
   - name: Carmen García
     availability: [JT, SM, SMD, D]
   - name: David Cantó
     availability:
-      [MM, XT, JM, JMD, JT, VT, SM, SMD]
+      [XT, VT]
   - name: Priscila Cantó
-    availability: [JT, VT]
+    availability: [VT]
     pioneer: true
   - name: Mery Lerebours
     availability:
@@ -47,28 +47,27 @@ volunteers:
       [VT, SM, SMD]
   - name: Kristel Navarro
     availability:
-      [XT, JT, VT, SM, SMD]
+      [XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Yézer Mellado
     availability:
-      [VT, SM, SMD, D]
+      [VT, SM, SMD]
   - name: Queren Mellado
-    availability:
-      [XT, JT, VT, SM, SMD, D]
+    availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Marina Candela
-    availability: [MM, XT, JT, VT, SM, SMD, D]
+    availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Esteban Candela
     availability: []
   - name: Karen Gutiérrez
-    availability: [SM, SMD, D]
+    availability: [MM, XT, JT, VT, SM, SMD, D]
   - name: Juan Parra
     availability:
-      []
+      [SMD, D]
   - name: Carol Parra
     availability:
-      [MM, XT, JT, VT, SM, SMD, D]
+      [MM, XT, JT, VT, SMD, D]
     pioneer: true
   - name: David Infantes
     availability:
@@ -110,11 +109,11 @@ volunteers:
     availability: [XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Ana García
-    availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
+    availability: [XT, VT] # a partir del día 20
   - name: José David Rodríguez
-    availability: [XT, VT, SM, SMD]
+    availability: [XT, SM, SMD]
   - name: Rebeca Rodríguez
-    availability: [XT, VT, SM, SMD]
+    availability: [MM, JM, JMD, SM, SMD]
     pioneer: true
   - name: Mari Carmen García
     availability: [SM, SMD]
@@ -139,7 +138,7 @@ volunteers:
     availability:
       [JM, JMD, SM, SMD]
   - name: Abraham Brotons
-    availability: [SM, SMD]
+    availability: [SM, SMD, D]
   - name: Amalín Brotons
     availability: []
     pioneer: true
@@ -167,7 +166,7 @@ volunteers:
       []
   - name: Pepi Esteve
     availability:
-      [MM, XT, JM, JMD, JT, VT]
+      [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
   - name: Salomé Lobato
     availability:
       [D]
@@ -183,7 +182,7 @@ volunteers:
     availability:
       []
   - name: José Antonio Santos
-    availability: [XT, JT, VT, SM, SMD, D]
+    availability: [XT, SM, SMD, D]
   - name: Ana Santos
     availability: [XT, JT, VT, SM, SMD, D]
     pioneer: true
