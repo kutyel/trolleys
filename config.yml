@@ -4,15 +4,19 @@ volunteers:
   - name: Flavio Corpa
     availability:
       [JT, VT, SM, SMD]
+    pioneer: true
   - name: Lidia Corpa
     availability:
       [MM, VT, SM, SMD]
+    pioneer: true
   - name: Julián Porta
     availability:
       [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Celia Porta
     availability:
       [XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Juan Pedro Ruiz
     availability: [SM, SMD]
   - name: Joaquina Ruiz
@@ -26,61 +30,73 @@ volunteers:
       [MM, XT, JM, JMD, JT, VT, SM, SMD]
   - name: Priscila Cantó
     availability: [JT, VT]
+    pioneer: true
   - name: Mery Lerebours
     availability:
       [MM, XT, JM, JMD, JT, VT, SM, SMD]
+    pioneer: true
   - name: Manuel Pastorino
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Raquel Pastorino
     availability:
       [XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Jairo Navarro
     availability:
       [VT, SM, SMD]
   - name: Kristel Navarro
     availability:
       [XT, JT, VT, SM, SMD]
+    pioneer: true
   - name: Yézer Mellado
     availability:
       [VT, SM, SMD, D]
   - name: Queren Mellado
     availability:
       [XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Marina Candela
     availability: [MM, XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Esteban Candela
     availability: []
   - name: Karen Gutiérrez
-    availability: [SM, SMD]
+    availability: [SM, SMD, D]
   - name: Juan Parra
     availability:
       []
   - name: Carol Parra
     availability:
       [MM, XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: David Infantes
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Raquel Infantes
     availability:
       [MM, XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Nerea Infantes
     availability:
       [XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Salud Fernández
     availability: []
+    pioneer: true
   - name: Luis Mira
     availability: [SM, SMD, D]
   - name: July Mira
     availability: [JM, JMD, VT, SM, SMD, D]
   - name: Antonio Cortés
     availability: [XT, JT, VT, SM, SMD]
+    pioneer: true
   - name: Clarisa Cortés
     availability: [SM, SMD]
   - name: Clara Cortés
     availability:
       [XT, VT, SM, SMD, D]
+    pioneer: true
   - name: Conan Martínez
     availability:
       [MM, JM, JMD]
@@ -89,20 +105,25 @@ volunteers:
       [MM, JM, JMD]
   - name: Daniel Jiménez
     availability: [XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Masha Jiménez
     availability: [XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Ana García
     availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
   - name: José David Rodríguez
     availability: [XT, VT, SM, SMD]
   - name: Rebeca Rodríguez
     availability: [XT, VT, SM, SMD]
+    pioneer: true
   - name: Mari Carmen García
     availability: [SM, SMD]
   - name: Mara Herrero
     availability: [MM, SM, SMD, D]
+    pioneer: true
   - name: María José González
     availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Berushka López
     availability: [XT, VT, SM, SMD]
   - name: Maribel Moreno
@@ -121,16 +142,20 @@ volunteers:
     availability: [SM, SMD]
   - name: Amalín Brotons
     availability: []
+    pioneer: true
   - name: Laura Brotons
     availability: [XT, JT, VT, SM, SMD]
+    pioneer: true
   - name: María Jesús Pol
     availability: []
   - name: Loli Sánchez
     availability: []
   - name: Miguel Robles
     availability: [XT, JT, VT, SM, SMD]
+    pioneer: true
   - name: Pati Robles
     availability: [XT, JT, VT, SM, SMD]
+    pioneer: true
   - name: Mari Ripoll
     availability:
       [XT, JT, VT, SM, SMD]
@@ -146,12 +171,14 @@ volunteers:
   - name: Salomé Lobato
     availability:
       [D]
+    pioneer: true
   - name: Carlos Ribón
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Margie Ribón
     availability:
       []
+    pioneer: true
   - name: Julio Ribón
     availability:
       []
@@ -159,6 +186,7 @@ volunteers:
     availability: [XT, JT, VT, SM, SMD, D]
   - name: Ana Santos
     availability: [XT, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Ethan Córdoba
     availability: [D]
   - name: Paula Córdoba
