@@ -43,11 +43,10 @@ volunteers:
       [XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Jairo Navarro
-    availability:
-      [VT, SM, SMD]
+    availability: [VT, SM, SMD]
+    pioneer: true
   - name: Kristel Navarro
-    availability:
-      [XT, JT, VT, SM, SMD, D]
+    availability: [XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Yézer Mellado
     availability:
@@ -66,19 +65,16 @@ volunteers:
     availability:
       [SMD, D]
   - name: Carol Parra
-    availability:
-      [MM, XT, JT, VT, SMD, D]
+    availability: [MM, XT, JT, VT, SMD, D]
     pioneer: true
   - name: David Infantes
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Raquel Infantes
-    availability:
-      [MM, XT, JT, VT, SM, SMD, D]
+    availability: [MM, XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Nerea Infantes
-    availability:
-      [XT, JT, VT, SM, SMD, D]
+    availability: [XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Salud Fernández
     availability: []
@@ -86,7 +82,8 @@ volunteers:
   - name: Luis Mira
     availability: [SM, SMD, D]
   - name: July Mira
-    availability: [JM, JMD, VT, SM, SMD, D]
+    availability: [JM, JMD, SM, SMD, D]
+    pioneer: true
   - name: Antonio Cortés
     availability: [XT, JT, VT, SM, SMD]
     pioneer: true
@@ -100,8 +97,8 @@ volunteers:
     availability:
       [MM, JM, JMD]
   - name: Juani Martínez
-    availability:
-      [MM, JM, JMD]
+    availability: [MM, JM, JMD]
+    pioneer: true
   - name: Daniel Jiménez
     availability: [XT, JT, VT, SM, SMD, D]
     pioneer: true
@@ -126,21 +123,21 @@ volunteers:
   - name: Berushka López
     availability: [XT, VT, SM, SMD]
   - name: Maribel Moreno
-    availability:
-      []
+    availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: José Sánchez
     availability:
       []
   - name: Silvia Sánchez
-    availability:
-      [XT, JT, VT]
+    availability: [XT, JT, VT]
+    pioneer: true
   - name: Gabriel Sánchez
     availability:
       [JM, JMD, SM, SMD]
   - name: Abraham Brotons
     availability: [SM, SMD, D]
   - name: Amalín Brotons
-    availability: []
+    availability: [MM, XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Laura Brotons
     availability: [XT, JT, VT, SM, SMD]
@@ -148,7 +145,8 @@ volunteers:
   - name: María Jesús Pol
     availability: []
   - name: Loli Sánchez
-    availability: []
+    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: true
   - name: Miguel Robles
     availability: [XT, JT, VT, SM, SMD]
     pioneer: true
@@ -162,8 +160,8 @@ volunteers:
     availability:
       [MM, XT, VT, D]
   - name: Verónica Estarlich
-    availability:
-      []
+    availability: []
+    pioneer: true
   - name: Pepi Esteve
     availability:
       [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
@@ -175,8 +173,7 @@ volunteers:
     availability:
       [XT, JT, VT, SM, SMD, D]
   - name: Margie Ribón
-    availability:
-      []
+    availability:  [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Julio Ribón
     availability:
@@ -195,4 +192,13 @@ volunteers:
   - name: Tammy Delgado
     availability: [SM, SMD, D]
   - name: Pilar Heredia
+    availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
+  - name: Mari Carmen Avilés
     availability: []
+    pioneer: true
+  - name: Carmen Maciá
+    availability: []
+    pioneer: true
+  - name: Nadir Tiago
+    availability: []
+    pioneer: true
