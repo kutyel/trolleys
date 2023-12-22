@@ -152,7 +152,7 @@ volunteers:
     pioneer: true
   - name: Gabriel Sánchez
     availability:
-      [JM, JMD, SM, SMD]
+      [MM, JM, JMD, SM, SMD]
     pioneer: false
   - name: Abraham Brotons
     availability: [SM, SMD, D]
@@ -167,7 +167,7 @@ volunteers:
     availability: []
     pioneer: false
   - name: Loli Sánchez
-    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    availability: [MM, JM, JMD, SM, SMD, D]
     pioneer: true
   - name: Miguel Robles
     availability: [XT, JT, VT, SM, SMD]

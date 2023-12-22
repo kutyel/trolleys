@@ -1,3 +1,5 @@
+{-# language DeriveAnyClass #-}
+
 module Main where
 
 import Control.Monad.Random (MonadRandom (getRandomR))
@@ -17,9 +19,7 @@ data Config = Config
   { shifts :: Shifts
   , volunteers :: [Volunteer]
   }
-  deriving (Generic)
-
-instance FromJSON Config
+  deriving (Generic, FromJSON)
 
 data Turn
   = Empty
@@ -36,10 +36,9 @@ data Volunteer = Volunteer
   { name :: Text
   , availability :: Shifts
   , pioneer :: Bool
+  , spouse :: Maybe Text
   }
-  deriving (Eq, Generic)
-
-instance FromJSON Volunteer
+  deriving (Eq, FromJSON, Generic)
 
 instance Show Volunteer where
   show :: Volunteer -> String
