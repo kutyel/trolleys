@@ -4,14 +4,14 @@ module Main where
 
 import Control.Monad.Random (MonadRandom (getRandomR))
 import Data.Aeson (FromJSON)
-import qualified Data.ByteString.Char8 as BS
+import Data.ByteString.Char8 qualified as BS
 import Data.List (intercalate)
-import Data.Text (Text (..), unpack)
-import qualified Data.Yaml as Y
+import Data.Text qualified as T
+import Data.Yaml qualified as Y
 import GHC.Generics (Generic)
-import System.IO (BufferMode (NoBuffering), hSetBuffering, stdout)
+import System.IO
 
-type Shift = Text
+type Shift = T.Text
 type Shifts = [Shift]
 type Schedule = [Turn]
 
@@ -33,16 +33,16 @@ instance Show Turn where
   show (Volunteers vs) = intercalate ", " (map show vs) ++ ".\n"
 
 data Volunteer = Volunteer
-  { name :: Text
+  { name :: T.Text
   , availability :: Shifts
   , pioneer :: Bool
-  , spouse :: Maybe Text
+  , spouse :: Maybe T.Text
   }
   deriving (Eq, FromJSON, Generic)
 
 instance Show Volunteer where
   show :: Volunteer -> String
-  show = unpack . name
+  show = T.unpack . name
 
 -- helpers
 getVolunteers :: [Volunteer] -> Shift -> [Volunteer]
