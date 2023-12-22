@@ -1,10 +1,5 @@
-{-# LANGUAGE DeriveGeneric #-}
-{-# LANGUAGE InstanceSigs #-}
-{-# LANGUAGE OverloadedStrings #-}
-
 module Main where
 
-import Control.Monad ((<=<))
 import Control.Monad.Random (MonadRandom (getRandomR))
 import Data.Aeson (FromJSON)
 import qualified Data.ByteString.Char8 as BS
@@ -40,6 +35,7 @@ instance Show Turn where
 data Volunteer = Volunteer
   { name :: Text
   , availability :: Shifts
+  , pioneer :: Bool
   }
   deriving (Eq, Generic)
 
