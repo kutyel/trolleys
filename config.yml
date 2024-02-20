@@ -120,7 +120,7 @@ volunteers:
     availability: [XT, JT, VT, SM, SMD, D]
     pioneer: true
   - name: Ana García
-    availability: [XT, VT] # a partir del día 20
+    availability: [XT, VT]
     pioneer: false
   - name: José David Rodríguez
     availability: [XT, SM, SMD]
@@ -234,3 +234,21 @@ volunteers:
   - name: Nadir Tiago
     availability: []
     pioneer: true
+  - name: Antonio Clemenza
+    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: false
+  - name: Adela Clemenza
+    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: false
+  - name: Nelly Perlaza
+    availability: [MM, XM, JM, JMD, D]
+    pioneer: false
+  - name: Conchi Brotons
+    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: false
+  - name: Inés García
+    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: false
+  - name: Lucila Lagar
+    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: false
