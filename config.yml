@@ -235,10 +235,10 @@ volunteers:
     availability: []
     pioneer: true
   - name: Antonio Clemenza
-    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    availability: [MM, MT, XT, JM, JMD, SM, SMD]
     pioneer: false
   - name: Adela Clemenza
-    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    availability: [MM, MT, XT, JM, JMD, SM, SMD]
     pioneer: false
   - name: Nelly Perlaza
     availability: [MM, XM, JM, JMD, D]
