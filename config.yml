@@ -87,9 +87,6 @@ volunteers:
   - name: Nerea Infantes
     availability: [XT, JT, VT, SM, SMD, D]
     pioneer: true
-  - name: Salud Fernández
-    availability: []
-    pioneer: true
   - name: Luis Mira
     availability: [SM, SMD, D]
     pioneer: false
@@ -225,15 +222,6 @@ volunteers:
   - name: Pilar Heredia
     availability: [MM, XT, JM, JMD, JT, VT, SM, SMD, D]
     pioneer: false
-  - name: Mari Carmen Avilés
-    availability: []
-    pioneer: true
-  - name: Carmen Maciá
-    availability: []
-    pioneer: true
-  - name: Nadir Tiago
-    availability: []
-    pioneer: true
   - name: Antonio Clemenza
     availability: [MM, MT, XT, JM, JMD, SM, SMD]
     pioneer: false
@@ -250,5 +238,8 @@ volunteers:
     availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
     pioneer: false
   - name: Lucila Lagar
+    availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
+    pioneer: false
+  - name: Margarita Feliubadaló
     availability: [MM, MT, XT, JM, JMD, JT, VT, SM, SMD, D]
     pioneer: false
